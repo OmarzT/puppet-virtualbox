@@ -24,5 +24,6 @@ class virtualbox::repo::debian (
     key        => $key,
     key_source => $key_source,
     pin        => $pin,
+    include_src => false,
   }
 }
